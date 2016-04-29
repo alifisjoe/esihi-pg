@@ -4,7 +4,7 @@
         xmlns:android = "http://schemas.android.com/apk/res/android"
         id        = "com.moodle.esihi"
         versionCode = "2016"
-        version   = "1.0">
+        version   = "3.1">
     <name>eSiHi</name>
 
     <description>
@@ -16,10 +16,9 @@
     </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
-        <string>1.0</string>
+        <string>1.3</string>
     </gap:config-file>
 
-    <gap:platform name="ios" />
     <gap:platform name="android" />
 
     <access origin="*" />
@@ -55,7 +54,7 @@
     <preference name="AndroidPersistentFileLocation"    value="Compatibility" />
     <preference name="iosPersistentFileLocation"        value="Compatibility" />
 
-    <icon src="icon.png" />
+     <icon src="icon.png" />
     <icon src="resources/android/icon/drawable-ldpi-icon.png"       gap:platform="android"    gap:density="ldpi" />
     <icon src="resources/android/icon/drawable-mdpi-icon.png"       gap:platform="android"    gap:density="mdpi" />
     <icon src="resources/android/icon/drawable-hdpi-icon.png"       gap:platform="android"    gap:density="hdpi" />
@@ -274,9 +273,9 @@
                   <string>public.audio</string>
                   <string>public.mp3</string>
                   <string>public.mpeg-4-audio</string>
-                  <string>com.apple.protected-?mpeg-4-audio</string>
+                  <string>com.apple.protected-​mpeg-4-audio</string>
                   <string>public.aifc-audio</string>
-                  <string>com.apple.coreaudio-?format</string>
+                  <string>com.apple.coreaudio-​format</string>
                   <string>public.aiff-audio</string>
                 </array>
             </dict>
@@ -378,14 +377,14 @@
                   <string>public.text</string>
                   <string>public.plain-text</string>
                   <string>public.utf8-plain-text</string>
-                  <string>public.utf16-external-plain-?text</string>
+                  <string>public.utf16-external-plain-​text</string>
                   <string>public.utf16-plain-text</string>
-                  <string>com.apple.traditional-mac-?plain-text</string>
+                  <string>com.apple.traditional-mac-​plain-text</string>
                   <string>public.source-code</string>
                   <string>public.c-source</string>
                   <string>public.objective-c-source</string>
                   <string>public.c-plus-plus-source</string>
-                  <string>public.objective-c-plus-?plus-source</string>
+                  <string>public.objective-c-plus-​plus-source</string>
                   <string>public.c-header</string>
                   <string>public.c-plus-plus-header</string>
                   <string>com.sun.java-source</string>
@@ -450,7 +449,7 @@
                 <string>Alternate</string>
                 <key>LSItemContentTypes</key>
                 <array>
-                  <string>com.microsoft.waveform-?audio</string>
+                  <string>com.microsoft.waveform-​audio</string>
                 </array>
             </dict>
             <dict>
@@ -481,7 +480,7 @@
                 <string>Alternate</string>
                 <key>LSItemContentTypes</key>
                 <array>
-                  <string>com.microsoft.powerpoint.?ppt</string>
+                  <string>com.microsoft.powerpoint.​ppt</string>
                   <string>org.openxmlformats.presentationml.presentation</string>
                 </array>
             </dict>
