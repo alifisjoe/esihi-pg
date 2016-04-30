@@ -16,7 +16,7 @@
  */
 
 // Bar content.
-$bar-content-bg: #f70 !default;
+$bar-content-bg: #008904 !default;
 $bar-content-border: transparent !default;
 $bar-content-text: #fff !default;
 
@@ -132,7 +132,8 @@ em {
 }
 
 // Defines a "disabled" item.
-.item.item-disabled {
+.item.item-disabled,
+.platform-android .item.item-disabled {
   color: $item-disabled-color;
 }
 
